@@ -3,9 +3,9 @@ let app=new express();
 let mysql=require('mysql');
 let config=require('./config');
 let moment=require('moment');
-var comp=require('compression');
 
-app.use(compression())
+
+
 
 app.listen('5000',function(){
 console.log("Server details");
